@@ -91,3 +91,16 @@ inputDigit(value);
 }
 updateDisplay();
 });
+function pangkatdua(){
+    calculator.displayValue = Math.pow(calculator.displayValue,2);
+}
+function sin(){
+	calculator.displayValue = Math.sin(calculator.displayValue);
+}
+function cos(){
+	calculator.displayValue = Math.cos(calculator.displayValue);
+}
+function tan(){
+	calculator.displayValue = Math.tan(calculator.displayValue);
+}
+;
